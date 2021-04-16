@@ -34,12 +34,21 @@ button,
 textarea {
   font-size: inherit;
 }
-
-h2,
-h3 {
+h2 {
   text-align: center;
+  font-size: 2.5rem;
   font-weight: 600;
   color: var(--headings);
+}
+
+h3 {
+  font-size: 1.6rem;
+  font-weight: 400;
+  color: var(--headings);
+}
+
+.bg-cl-yellow {
+  background: #f9f4e6;
 }
 
 .header-size {
@@ -55,7 +64,7 @@ h3 {
 }
 
 .mg-btm {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 .main-heading-text-container {
@@ -63,7 +72,7 @@ h3 {
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: center;
+  justify-content: end;
   align-items: center;
 }
 
@@ -71,11 +80,11 @@ h3 {
   text-align: left;
   height: auto;
   width: 100%;
-  color: white;
+  color: #f9f4e6;
 }
 
 .bg-image {
-  background-image: url(./images/E75A6538-5676-4291-BADD-D4E362331170.jpeg);
+  background-image: url(./images/me.jpg);
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -83,27 +92,35 @@ h3 {
 }
 
 .container {
-  padding: 0 2rem;
-  max-width: 1208px;
+  padding: 3rem 3rem;
+  max-width: 600px;
 }
 
 hr {
   overflow: hidden;
-  opacity: 50%;
+  opacity: 15%;
+  margin: 1.5rem 0;
 }
 
-.nav-button {
-  border: 1px solid black;
+.nav-items {
+  text-align: center;
+  color: var(--primary);
   border-radius: 10%;
-  padding: 0.2rem;
+  padding: 0.4rem;
   font-weight: 600;
 }
 nav {
+  border: 1px solid var(--black);
+  border-radius: 0.5rem;
   display: flex;
-  justify-content: center;
-  gap: 6rem;
+  justify-content: space-evenly;
+  gap: 1rem;
 }
 nav a:hover {
   color: grey;
   transition: ease-in;
+}
+
+ul {
+  list-style: none;
 }
