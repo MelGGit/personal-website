@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  /* border: 1px solid red; */
+  border: 1px solid red;
 }
 
 :root {
@@ -67,6 +67,10 @@ h3 {
   margin-bottom: 2rem;
 }
 
+.mg-top {
+  margin-top: 2rem;
+}
+
 .main-heading-text-container {
   height: 80vh;
   width: 100%;
@@ -116,11 +120,41 @@ nav {
   justify-content: space-evenly;
   gap: 1rem;
 }
+
 nav a:hover {
   color: grey;
   transition: ease-in;
 }
 
+.border-btm {
+  border-bottom: 1px solid var(--primary);
+}
+
 ul {
   list-style: none;
+}
+
+.a-hover:hover {
+  color: lightgrey;
+}
+
+.img-cntr {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  gap: 1rem;
+  align-items: center;
+}
+
+.img-cntr a img {
+  max-width: 100%;
+  height: auto;
+}
+
+.img-cntr a img:hover {
+  background-color: lightgrey;
+}
+
+.img-cntr p {
+  max-width: 50%;
 }
