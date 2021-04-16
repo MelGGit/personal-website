@@ -2,7 +2,7 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  border: 1px solid red;
+  /* border: 1px solid red; */
 }
 
 :root {
@@ -28,6 +28,12 @@ body {
   line-height: 1.64;
   color: var(--black);
 }
+
+/* .page-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+} */
 
 input,
 button,
@@ -149,6 +155,7 @@ ul {
 .img-cntr a img {
   max-width: 100%;
   height: auto;
+  border-radius: 50%;
 }
 
 .img-cntr a img:hover {
