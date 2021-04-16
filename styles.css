@@ -30,16 +30,33 @@ nav {
   font-size: 130%;
 }
 
+.italic {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: 900;
+}
+
 .main-heading-text-container {
   height: 80vh;
   width: 100%;
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .main-heading-text {
   text-align: center;
-  border: 1px solid red;
-  position: relative;
   height: auto;
   width: 100%;
+}
+
+.bg-image {
+  background-image: url(./images/E75A6538-5676-4291-BADD-D4E362331170.jpeg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: cover;
 }
