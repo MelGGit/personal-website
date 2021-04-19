@@ -229,3 +229,25 @@ img {
   font-weight: 400;
   margin-bottom: 1em;
 }
+
+.turn:hover {
+  animation: linear turn 3s infinite;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90eg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
