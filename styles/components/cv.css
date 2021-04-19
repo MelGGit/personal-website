@@ -1,0 +1,18 @@
+.cv__li-wrap {
+  display: flex;
+  /* flex-direction: column; */
+}
+
+.cv__date {
+  font-weight: 400;
+  width: 23rem;
+}
+
+.cv__info {
+  width: calc(100% - 1rem);
+}
+
+.cv__info-title {
+  font-weight: 400;
+  margin-bottom: 1em;
+}

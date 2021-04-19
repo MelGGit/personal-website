@@ -1,0 +1,75 @@
+.container {
+  margin-inline: auto;
+  width: min(90%, 70.5rem);
+  /* min(min-width, max-width) */
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bg-cl-yellow {
+  background: #f9f4e6;
+}
+
+.fontsize-200per {
+  font-size: 200%;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.strong {
+  font-weight: 900;
+}
+
+.mg-btm-2 {
+  margin-bottom: 2rem;
+}
+
+.mg-btm-1 {
+  margin-bottom: 1rem;
+}
+
+.mg-top {
+  margin-top: 2rem;
+}
+
+.scale {
+  max-width: 6em;
+}
+
+.hover-bg-grey:hover {
+  background-color: lightgrey;
+}
+
+.bg-black {
+  background: #141112;
+}
+
+.a-hover:hover {
+  color: lightgrey;
+}
+
+.turn:hover {
+  animation: linear turn 3s infinite;
+}
+
+@keyframes turn {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(90eg);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  75% {
+    transform: rotate(270deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
