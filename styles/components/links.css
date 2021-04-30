@@ -1,0 +1,26 @@
+.links__split {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (min-width: 35em) {
+  .links__split {
+    flex-direction: row;
+  }
+
+  .reverse {
+    flex-direction: row-reverse;
+  }
+
+  .links__split > * {
+    flex-basis: 100%;
+  }
+
+  .links__split > * + * {
+    margin-left: 2em;
+  }
+
+  /* every cheld that has a child before it */
+}
